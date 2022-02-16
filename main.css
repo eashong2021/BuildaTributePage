@@ -1,0 +1,120 @@
+html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: "Dosis", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  #main p {
+    color: #0d0d13;
+  }
+  h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    color: #4c0f69;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  figcaption {
+    font-size: 20px;
+    color: #ffeb27;
+  }
+  h2 {
+    font-size: 3.25rem;
+    color: #4c0f69;
+  }
+  h3 {
+    font-size: 24px;
+    color: #4c0f69;
+  }
+  ul {
+    font-size: 24px;
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  .purple-bold-bullets {
+    color: #4c0f69;
+  }
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #ffa200;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  li {
+    margin: 16px 0;
+    list-style: none;
+  }
+  li:before {
+    margin-right: 5px;
+    color: #ffa200;
+    content: "\2698";
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+  
+  #testify {
+    color: #30262fa6;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: #533761;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
